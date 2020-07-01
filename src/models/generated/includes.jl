@@ -255,6 +255,7 @@ export get_time_at_status
 export get_timeframe
 export get_timelimits
 export get_to
+export get_upstream
 export get_v_rated
 export get_variable
 export get_voltage
@@ -461,6 +462,7 @@ export set_time_at_status!
 export set_timeframe!
 export set_timelimits!
 export set_to!
+export set_upstream!
 export set_v_rated!
 export set_variable!
 export set_voltage!

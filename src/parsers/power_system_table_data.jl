@@ -965,6 +965,7 @@ function make_hydro_generator(gen_type, data::PowerSystemTableData, gen, cost_co
             storage_capacity = storage.storage_capacity,
             inflow = storage.inflow_limit,
             initial_storage = storage.initial_storage,
+            upstream = get(gen, :upstream, nothing),
         )
     elseif gen_type == HydroDispatch
         @debug("Creating $(gen.name) as HydroDispatch")

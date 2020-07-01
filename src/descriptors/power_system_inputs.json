@@ -487,6 +487,10 @@
             "description": "Boolean that idicates if ThermalGen must be online always"
         },
         {
+            "name": "upstream",
+            "description": "upstream units"
+        },
+        {
             "name": "generator_category",
             "value_options": [
                 "HydroDispatch",

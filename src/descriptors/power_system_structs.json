@@ -1423,6 +1423,13 @@
           "validation_action": "error"
         },
         {
+          "name": "upstream",
+          "data_type": "Union{Nothing, Vector{String}}",
+          "comment": "Upstream units",
+          "null_value": "nothing",
+          "default": "nothing"
+        },
+        {
           "name": "services",
           "data_type": "Vector{Service}",
           "comment": "Services that this device contributes to",
